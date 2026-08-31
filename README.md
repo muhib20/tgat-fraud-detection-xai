@@ -1,6 +1,6 @@
 # Temporal Graph Attention Networks for Financial Fraud Detection with Explainable AI: A Time-Series Approach
 
-Code and results for my MSc Data Science dissertation at London South Bank University, supervised by Prof. Daqing Chen.
+Code and results for my MSc Data Science dissertation at London South Bank University, supervised by Dr. Daqing Chen.
 
 The project models card-not-present fraud as **temporal edge classification**: cards and addresses are nodes, transactions are timestamped edges. A Temporal Graph Attention Network (TGAT) is compared against matched non-graph baselines, and both SHAP and GNNExplainer are applied to the TGAT and validated for faithfulness and stability.
 
