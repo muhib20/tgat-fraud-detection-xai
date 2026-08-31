@@ -30,6 +30,8 @@ Mean ± standard deviation over five seeds (0–4). PR-AUC is the primary metric
 
 **Why the graph does not help here.** The card side is too sparse to support temporal attention (median card node: 4 transactions), while the address side is not a meaningful entity at all — `addr1` takes only 332 distinct values across 524,834 edges, so each address node mixes thousands of unrelated users. Cold start is *not* the explanation: only 1.22% of test edges touch a node unseen during training.
 
+![Hub-dominated degree distribution](results/fig_hub_distribution.png)
+
 ---
 
 ## Repository layout
