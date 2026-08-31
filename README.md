@@ -6,6 +6,14 @@ The project models card-not-present fraud as **temporal edge classification**: c
 
 ---
 
+## Project Architecture
+
+The diagram below illustrates the complete pipeline, from raw transaction data through temporal graph construction to explanation validation:
+
+![Architecture diagram](docs/architecture.png)
+
+---
+
 ## Headline result
 
 TGAT did **not** outperform the tabular baselines, and a controlled time ablation showed the temporal component contributed nothing measurable on this graph. This is reported as a negative result with a diagnosis, not as a failed implementation.
