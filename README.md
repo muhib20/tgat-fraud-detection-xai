@@ -10,7 +10,7 @@ The project models card-not-present fraud as **temporal edge classification**: c
 
 The diagram below illustrates the complete pipeline, from raw transaction data through temporal graph construction to explanation validation:
 
-![Architecture diagram](docs/architecture.png)
+![Architecture diagram](results/tgat-fraud-detection-xai.png)
 
 ---
 
